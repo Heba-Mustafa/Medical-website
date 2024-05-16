@@ -1,0 +1,134 @@
+// div{
+//     background-color: $bgcolor;
+// }
+
+.card{
+    // "//www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/revslider/demo-medical/slide-medical-2.jpg"
+
+    &--single{
+        background-image: url("https://www.portotheme.com/wordpress/porto/construction/wp-content/uploads/images/medical/gallery-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 289px;
+        box-shadow: 0 0 10px rgba(5, 5, 5, .3);
+    
+    }
+
+
+    &--group{
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-around;
+        
+        .text{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+
+
+        &__cardiology{
+            // background-color: aqua;
+            height:148px;
+            width: 350px;
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 43px;
+                height: 57px;
+            }
+
+        }
+        &__gastroenterology{
+            // background-color: aqua;
+            height:148px;
+            width: 350px;
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 51px;
+                height: 40px;
+            }
+
+        }
+        &__pulmonology{
+            // background-color: aqua;
+            height:148px;
+            width: 350px;
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 50px;
+                height: 42px;
+            }
+
+
+        }
+        &__dental{
+            // background-color: aqua;
+            height:148px;
+            width: 350px;
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 37px;
+                height: 46px;
+            }
+
+
+        }
+        &__gynecology{
+            // background-color: aqua;
+            height:148px;
+            width: 350px;
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 54px;
+                height: 49px;
+            }
+
+
+        }
+        &__hepatology{
+            // background-color: aqua;
+            height:148px;
+            width: 350px;
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 47px;
+                height: 39px;
+            }
+
+        }
+        
+        // &__item{
+        //     border: solid 1px;
+        //     .item-img{
+        //     background-image: url("https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2016/09/doctor-3.jpg");
+
+        //     }
+        // }
+
+       
+    }
+
+}
+
+.card--group__item{
+    border: solid 1px black;
+    .item-img
+    {
+        width: 207px;
+        height: 249px;
+    // background-image: url("https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2016/09/doctor-3.jpg");
+    }
+
+
+}

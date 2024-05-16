@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.section {
+  padding: 25px 65px 25px 40px;
+  margin: 25px 0 25px 0;
+}
+
+.card--single {
+  background-image: url("https://www.portotheme.com/wordpress/porto/construction/wp-content/uploads/images/medical/gallery-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 289px;
+  box-shadow: 0 0 10px rgba(5, 5, 5, 0.3);
+}
+.card--group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card--group .text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card--group__cardiology {
+  height: 148px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.card--group__cardiology img {
+  width: 43px;
+  height: 57px;
+}
+.card--group__gastroenterology {
+  height: 148px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.card--group__gastroenterology img {
+  width: 51px;
+  height: 40px;
+}
+.card--group__pulmonology {
+  height: 148px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.card--group__pulmonology img {
+  width: 50px;
+  height: 42px;
+}
+.card--group__dental {
+  height: 148px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.card--group__dental img {
+  width: 37px;
+  height: 46px;
+}
+.card--group__gynecology {
+  height: 148px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.card--group__gynecology img {
+  width: 54px;
+  height: 49px;
+}
+.card--group__hepatology {
+  height: 148px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.card--group__hepatology img {
+  width: 47px;
+  height: 39px;
+}
+
+.card--group__item {
+  border: solid 1px black;
+}
+.card--group__item .item-img {
+  width: 207px;
+  height: 249px;
+}
+
+.nav {
+  background-color: #eee;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px 20px 0;
+  align-items: center;
+}
+.nav__items {
+  padding: 0;
+}
+
+.btn {
+  background-color: transparent;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: small;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+.btn a {
+  text-decoration: none;
+}
+.btn--rectangle {
+  background-color: transparent;
+  margin: 0;
+}
+.btn--rectangle a {
+  color: #0484cf;
+  padding: 12px 12px 10px 11px;
+}
+.btn--rectangle a:hover {
+  background: #2d529f;
+  color: white;
+}
+.btn--rounded {
+  font-size: small;
+  font-weight: 500;
+  border: solid 2px;
+  border-radius: 32px;
+  padding: 12px 14px 12px 14px;
+  display: flex;
+  justify-content: center;
+  color: #1d2127;
+}
+.btn--rounded__start {
+  width: 22%;
+}
+.btn--rounded:hover {
+  background: #1d2127;
+  color: white;
+}
+.btn--rounded__middle {
+  width: 50px;
+  margin: auto;
+}
+
+.secTwo {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.text {
+  font-family: "Rubik", sans-serif;
+}
+.text h1 {
+  font-weight: 500;
+  color: #1d2127;
+  padding-bottom: 0.7rem;
+}
+.text h5 {
+  font-size: large;
+  color: #747474;
+  font-weight: 350;
+  padding-bottom: 3rem;
+}
+.text p {
+  color: #807795;
+  font-weight: 200;
+  font-size: 15px;
+  padding-bottom: 3rem;
+}
+.text h3 {
+  font-weight: 500;
+  color: #1d2127;
+}
+.text.text--third {
+  height: 50px;
+}
+.text.text--third h3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #807795;
+}
+.text.text--third h2 {
+  font-weight: 400;
+}
+
+.secThree {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 110px;
+}
+
+.secFour {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 120px;
+}/*# sourceMappingURL=main.css.map */
