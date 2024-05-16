@@ -1,0 +1,13 @@
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "base/reset"; // base after: abstract w vendors  
+@import "components/mycard";
+@import "components/navbar";
+@import "components/btns";
+@import "components/secTwo";
+@import "components/text";
+@import "components/secThree";
+@import "components/secFour";
+@import "components/secFive";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap') ; 

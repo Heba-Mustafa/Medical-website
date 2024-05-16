@@ -1,0 +1,43 @@
+.text{
+    font-family: "Rubik", sans-serif;
+
+    h1{
+        font-weight: 500;
+        color: $black;
+        padding-bottom: .7rem;
+
+    }
+    h5{
+        font-size: large;
+        color: $dark-gray;
+        font-weight: 350;
+        padding-bottom: 3rem;
+    }
+    p{
+        color: $light-gray;
+        font-weight: 200;
+        font-size:15px;
+        padding-bottom: 3rem;
+    }
+
+    h3{
+        font-weight: 500;
+        color: $black;
+    }
+
+    &.text--third{
+        height: 50px;
+
+    h3{
+        font-weight: 400;
+        font-size: 18px;
+        color: $light-gray;
+
+}
+     h2{
+        font-weight: 400;
+}
+    }
+};
+   
+
